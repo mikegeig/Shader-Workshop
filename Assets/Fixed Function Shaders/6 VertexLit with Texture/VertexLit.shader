@@ -9,6 +9,8 @@
 
     SubShader {
         Pass {
+        	Name "Main"
+        	
             Material {
                 Diffuse [_Color]
                 Ambient [_Color]
@@ -24,5 +26,5 @@
             }
         }
     }
-	FallBack "Diffuse"
+	FallBack "VertexLit"
 }

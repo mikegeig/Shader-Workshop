@@ -227,6 +227,7 @@ GameObject:
   - 33: {fileID: 2105208922}
   - 65: {fileID: 2105208921}
   - 23: {fileID: 2105208920}
+  - 114: {fileID: 2105208924}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -246,7 +247,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 6893cb8d2bfe2704c93c5dfaa50647ce, type: 2}
+  - {fileID: 2100000, guid: d9f70279da34e8343814d48e222b29ca, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -285,3 +286,15 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2105208924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2105208919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3e7c5bad540e048a7cd7e26127df0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
