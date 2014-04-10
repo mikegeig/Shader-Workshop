@@ -1,6 +1,6 @@
 ﻿Shader "VertFrag/SineWave" {
     Properties {
-        _MainTex ("Base (RGB) RefStrength (A)", 2D) = "white" {}
+        _MainTex ("Texture", 2D) = "white" {}
     }
      
     SubShader 
