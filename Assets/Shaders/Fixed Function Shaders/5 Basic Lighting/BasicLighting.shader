@@ -1,7 +1,5 @@
 ﻿Shader "Fixed/BasicLighting" {
-	Properties {
-		
-	}
+
 	SubShader {
 		Pass
 		{

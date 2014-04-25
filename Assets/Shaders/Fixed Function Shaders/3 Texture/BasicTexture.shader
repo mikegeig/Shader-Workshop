@@ -1,7 +1,7 @@
 ﻿Shader "Fixed/BasicTexture" {
 	Properties {
-		//_MainTex ("Texture", 2D) = "white" {}
 		_MainTex ("Texture", 2D) = "white" {}
+		//_MainTex ("Texture", 2D) = "white" {TexGen EyeLinear}
 	}
 	SubShader 
 	{

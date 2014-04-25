@@ -7,9 +7,13 @@
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			#include "UnityCG.cginc"
+			
+			//Unity library which makes things easier
+			#include "UnityCG.cginc" 
 
+			//This struct can have any name
 			struct v2f {
+							//Semantics. The SV is for DirectX
 			    float4 pos : SV_POSITION;
 			    float3 color : COLOR0;
 			};

@@ -43,5 +43,5 @@
 			ENDCG
        }
     }
-    FallBack "Reflective/VertexLit"
+    FallBack "VertexLit"
 }

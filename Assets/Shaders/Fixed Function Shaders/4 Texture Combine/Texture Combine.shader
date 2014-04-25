@@ -10,11 +10,13 @@
 			SetTexture[_MainTex]
 			SetTexture[_Tex2] {combine texture * previous}
 			
+			//Math: +, -, *, Lerp()
+
 			//Can use:
-			//-previous
-			//-texture
-			//-primary
-			//-constant
+			//-previous - previous texture
+			//-texture - current texture
+			//-primary - primary color of vertex
+			//-constant - a specifiable color
 			
 			//As well as:
 			//-Double
